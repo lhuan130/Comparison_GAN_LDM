@@ -1,0 +1,8 @@
+data/
+imagenet_*
+*.jpeg
+*.png
+myenv/
+*.out
+PyTorch-StudioGAN/
+
