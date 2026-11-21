@@ -1,1 +1,4 @@
-use `git clone https://github.com/POSTECH-CVLab/PyTorch-StudioGAN.git` to get the ReACGAN library I shifted to once I started seeing imagenet collapse. The MNIST stuff is in the `gan/` dir.
+You will need to do the below command to run the imagenet64 batch for ACGAN
+Use `git clone https://github.com/POSTECH-CVLab/PyTorch-StudioGAN.git` to get the ReACGAN library I shifted to once I started seeing imagenet collapse.
+
+The MNIST stuff is in the `gan/` dir; this is the custom ACGAN for MNIST so it isn't from the above lib.
