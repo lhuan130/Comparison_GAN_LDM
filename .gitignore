@@ -6,3 +6,4 @@ myenv/
 *.out
 PyTorch-StudioGAN/
 
+.venv

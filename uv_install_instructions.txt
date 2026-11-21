@@ -1,0 +1,9 @@
+req.txt is the list of dependencies including version and torch-cuda variant
+
+use the following commands to setup venv and install (note: req.txt is in the git tree, but the venv and dependencies will not be):
+```
+uv venv
+source .venv/bin/activate
+uv pip install -r "req.txt" --extra-index-url https://download.pytorch.org/whl/cu126 --index-strategy unsafe-best-match
+```
+
